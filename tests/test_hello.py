@@ -1,10 +1,10 @@
 from hello import __version__
-from hello import hello
+from hello import greetings
 
 
 def test_version():
-    assert __version__ == "0.1.0"
+    assert __version__ == "0.1.1"
 
 
 def test_say_hello():
-    assert hello.say_hello("Weverton") == "Hello, Weverton!"
+    assert greetings.say_hello("Weverton") == "Hello, Weverton!"

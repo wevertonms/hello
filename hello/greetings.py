@@ -1,3 +1,6 @@
+"""Módulo com as saudações."""
+
+
 def say_hello(name):
     """Diz "hello" para alguém.
 
